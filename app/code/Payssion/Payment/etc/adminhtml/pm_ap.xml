@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2016 Payssion All rights reserved.
+ */
+-->
+<include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+    <include path="Payssion_Payment::pm/alipay_cn.xml" />
+    <include path="Payssion_Payment::pm/fpx_my.xml" />
+    <include path="Payssion_Payment::pm/maybank2u_my.xml" />
+    <include path="Payssion_Payment::pm/poli_au.xml" />
+    <include path="Payssion_Payment::pm/poli_nz.xml" />
+</include>

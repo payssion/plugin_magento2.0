@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2016 Payssion All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>        
+        <section id="payment">
+            <group id="payssion" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Payssion Settings</label>
+                <field id="api_key" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>API Key</label>
+                </field>
+                <field id="secret_key" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Secret Key</label>
+                </field>
+                <field id="test_mode" translate="label" type="select" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Testmode</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>   
+                </field>
+                <group id="payssion_pm_global" translate="label"  sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Payssion\Payment\Block\Adminhtml\System\Config\Fieldset\Expanded</frontend_model>
+                    <label>Global</label>
+                    <include path="Payssion_Payment::pm_global.xml"/>
+                </group>
+                <group id="payssion_pm_am" translate="label"  sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Payssion\Payment\Block\Adminhtml\System\Config\Fieldset\Expanded</frontend_model>
+                    <label>Americas</label>
+                    <include path="Payssion_Payment::pm_am.xml"/>
+                </group>
+                <group id="payssion_pm_ap" translate="label"  sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Payssion\Payment\Block\Adminhtml\System\Config\Fieldset\Expanded</frontend_model>
+                    <label>Asia Pacific</label>
+                    <include path="Payssion_Payment::pm_ap.xml"/>
+                </group>
+                <group id="payssion_pm_eu" translate="label"  sortOrder="7" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Payssion\Payment\Block\Adminhtml\System\Config\Fieldset\Expanded</frontend_model>
+                    <label>Europe</label>
+                    <include path="Payssion_Payment::pm_eu.xml"/>
+                </group>
+                <group id="payssion_pm_af" translate="label"  sortOrder="8" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Payssion\Payment\Block\Adminhtml\System\Config\Fieldset\Expanded</frontend_model>
+                    <label>MENA</label>
+                    <include path="Payssion_Payment::pm_af.xml"/>
+                </group>
+            </group>
+        </section>
+    </system>
+</config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2016 Payssion All rights reserved.
+ */
+-->
+<include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+    <include path="Payssion_Payment::pm/sofort.xml" />
+    <include path="Payssion_Payment::pm/giropay_de.xml" />
+    <include path="Payssion_Payment::pm/ideal_nl.xml" />
+    <include path="Payssion_Payment::pm/p24_pl.xml" />
+    <include path="Payssion_Payment::pm/webmoney.xml" />
+    <include path="Payssion_Payment::pm/qiwi.xml" />
+    <include path="Payssion_Payment::pm/yamoney.xml" />
+</include>
