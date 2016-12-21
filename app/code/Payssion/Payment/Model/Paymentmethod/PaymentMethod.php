@@ -57,6 +57,7 @@ abstract class PaymentMethod extends AbstractMethod
         $billing_address = $order->getBillingAddress();
 
         $data = array(
+        	'source' => 'magento2',
             'amount' => number_format($total, 2),
             'currency' => $currency,
             'pm_id' => $this->getPMID(),
