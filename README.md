@@ -1,15 +1,8 @@
 # Payssion Magento2 plugin
 
----
-- [Quickstart](#quickstart)
-- [Setup](#setup)
-
----
-
-
 ### Quickstart
 
-#####Installing
+#####Install
 
 1. Upload content of module to magento2 root folder
 
@@ -19,7 +12,6 @@ Enter the following commands:
 ```
 php bin/magento module:enable Payssion_Payment
 php bin/magento setup:upgrade
-php bin/magento cache:clean
 ```
 
 The plugin is now installed
@@ -27,6 +19,7 @@ The plugin is now installed
 #####Setup
 
 1. Log into the Magento Admin
+if you are unable to get access to your admin 
 2. Go to *Stores* / *Configuration*
 3. Go to *Sales* / *Payment Methods*
 4. Find the Payssion Settings, enter the API Key and Secret Key
