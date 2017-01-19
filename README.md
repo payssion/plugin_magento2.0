@@ -1,5 +1,7 @@
 # Payssion Magento2 plugin
 
+This extension is for Magento 2.0.x
+
 ### Quickstart
 
 #####Install
