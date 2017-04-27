@@ -32,6 +32,8 @@ define(
             {type: 'payssion_payment_sberbank_ru', component: defaultComponent},
             {type: 'payssion_payment_singpost_sg', component: defaultComponent},
             {type: 'payssion_payment_sofort', component: defaultComponent},
+            {type: 'payssion_payment_tenpay_cn', component: defaultComponent},
+            {type: 'payssion_payment_unionpay_cn', component: defaultComponent},
             {type: 'payssion_payment_webmoney', component: defaultComponent},
             {type: 'payssion_payment_yamoney', component: defaultComponent}
         ];

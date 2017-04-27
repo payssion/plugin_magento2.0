@@ -5,7 +5,7 @@
 
 namespace Payssion\Payment\Model\Paymentmethod;
 
-class Bitcoin extends PaymentMethod
+class Unionpaycn extends PaymentMethod
 {
-	protected $_code = 'payssion_payment_bitcoin';
+	protected $_code = 'payssion_payment_unionpay_cn';
 }

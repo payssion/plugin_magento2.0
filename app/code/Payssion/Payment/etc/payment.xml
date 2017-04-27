@@ -72,6 +72,12 @@
         <method name="payssion_payment_sofort">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_tenpay_cn">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_unionpay_cn">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_webmoney">
             <allow_multiple_address>0</allow_multiple_address>
         </method>

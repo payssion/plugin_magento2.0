@@ -36,6 +36,8 @@ class ConfigProvider implements ConfigProviderInterface
     	'payssion_payment_sberbank_ru',
     	'payssion_payment_singpost_sg',
     	'payssion_payment_sofort',
+    	'payssion_payment_tenpay_cn',
+    	'payssion_payment_unionpay_cn',
     	'payssion_payment_webmoney',
     	'payssion_payment_yamoney',
     ];
