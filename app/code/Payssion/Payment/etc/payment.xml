@@ -48,6 +48,9 @@
         <method name="payssion_payment_onecard">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_bancontact_be">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_p24_pl">
             <allow_multiple_address>0</allow_multiple_address>
         </method>

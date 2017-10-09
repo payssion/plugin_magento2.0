@@ -8,6 +8,7 @@
     <include path="Payssion_Payment::pm/sofort.xml" />
     <include path="Payssion_Payment::pm/giropay_de.xml" />
     <include path="Payssion_Payment::pm/ideal_nl.xml" />
+    <include path="Payssion_Payment::pm/bancontact_be.xml" />
     <include path="Payssion_Payment::pm/p24_pl.xml" />
     <include path="Payssion_Payment::pm/webmoney.xml" />
     <include path="Payssion_Payment::pm/qiwi.xml" />

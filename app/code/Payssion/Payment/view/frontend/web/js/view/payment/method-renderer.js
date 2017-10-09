@@ -24,6 +24,7 @@ define(
             {type: 'payssion_payment_ideal_nl', component: defaultComponent},
             {type: 'payssion_payment_maybank2u_my', component: defaultComponent},
             {type: 'payssion_payment_onecard', component: defaultComponent},
+            {type: 'payssion_payment_bancontact_be', component: defaultComponent},
             {type: 'payssion_payment_p24_pl', component: defaultComponent},
             {type: 'payssion_payment_paysbuy_th', component: defaultComponent},
             {type: 'payssion_payment_poli_au', component: defaultComponent},

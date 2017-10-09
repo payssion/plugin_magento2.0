@@ -28,6 +28,7 @@ class ConfigProvider implements ConfigProviderInterface
     	'payssion_payment_ideal_nl',
     	'payssion_payment_maybank2u_my',
     	'payssion_payment_onecard',
+    	'payssion_payment_bancontact_be',
     	'payssion_payment_p24_pl',
     	'payssion_payment_paysbuy_th',
     	'payssion_payment_poli_au',
