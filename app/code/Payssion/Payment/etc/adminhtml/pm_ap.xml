@@ -10,6 +10,11 @@
     <include path="Payssion_Payment::pm/unionpay_cn.xml" />
     <include path="Payssion_Payment::pm/fpx_my.xml" />
     <include path="Payssion_Payment::pm/maybank2u_my.xml" />
+    <include path="Payssion_Payment::pm/cimb_my.xml" />
+    <include path="Payssion_Payment::pm/hlb_my.xml" />
+    <include path="Payssion_Payment::pm/rhb_my.xml" />
+    <include path="Payssion_Payment::pm/amb_my.xml" />
+    <include path="Payssion_Payment::pm/affinepg_my.xml" />
     <include path="Payssion_Payment::pm/poli_au.xml" />
     <include path="Payssion_Payment::pm/poli_nz.xml" />
 </include>

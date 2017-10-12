@@ -107,6 +107,51 @@
                 <model>Payssion\Payment\Model\Paymentmethod\Maybank2umy</model>
                 <group>payssion_payment</group>
             </payssion_payment_maybank2u_my>
+            <payssion_payment_cimb_my>
+                <active>0</active>
+                <title>CIMB Clicks</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\CIMBmy</model>
+                <group>payssion_payment</group>
+            </payssion_payment_cimb_my>
+            <payssion_payment_hlb_my>
+                <active>0</active>
+                <title>Hong Leong Online</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\HLBmy</model>
+                <group>payssion_payment</group>
+            </payssion_payment_hlb_my>
+            <payssion_payment_rhb_my>
+                <active>0</active>
+                <title>RHB Now</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\RHBmy</model>
+                <group>payssion_payment</group>
+            </payssion_payment_rhb_my>
+            <payssion_payment_amb_my>
+                <active>0</active>
+                <title>AmOnline</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\AMBmy</model>
+                <group>payssion_payment</group>
+            </payssion_payment_amb_my>
+            <payssion_payment_affinepg_my>
+                <active>0</active>
+                <title>Affin Bank</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Affinepgmy</model>
+                <group>payssion_payment</group>
+            </payssion_payment_affinepg_my>
             <payssion_payment_onecard>
                 <active>0</active>
                 <title>Onecard</title>
