@@ -54,8 +54,24 @@ abstract class PaymentMethod extends AbstractMethod
         $notify_url = $url->getUrl('payssion/checkout/notify/');
         $return_url = $url->getUrl('payssion/checkout/finish/');
 
+        $data = array(
+        		'source' => 'magento2',
+        		'amount' => number_format($total, 2),
+        		'currency' => $currency,
+        		'pm_id' => $this->getPMID(),
+        		'order_id' => $order_id,
+        		'description' => "Order # $order_id",
+        		'ip' => $order->getRemoteIp(),
+        		'notify_url' => $notify_url,
+        		'return_url' => $return_url,
+        );
+        
         $billing_address = $order->getBillingAddress();
-
+        if ($billing_address) {
+        	$data['payer_name'] = $billing_address['firstname'] . ' ' . $billing_address['lastname'];
+        	$data['payer_email'] = $billing_address['email'];
+        }
+        
         $data = array(
         	'source' => 'magento2',
             'amount' => number_format($total, 2),
