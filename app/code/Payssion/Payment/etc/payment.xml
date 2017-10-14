@@ -12,19 +12,52 @@
         </group>
     </groups>
     <methods>
+        <method name="payssion_payment_affinepg_my">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_alipay_cn">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_amb_my">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_atmva_id">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_banamex_mx">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_bancomer_mx">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_bancontact_be">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_bitcoin">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
-        <method name="payssion_payment_boleto">
+        <method name="payssion_payment_boleto_br">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_caixa_br">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_cashu">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_cherrycredits">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_cimb_my">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_doku_id">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_dragonpay_ph">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_efecty_co">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_enets_sg">
@@ -36,22 +69,49 @@
         <method name="payssion_payment_fpx_my">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_gash_tw">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_giropay_de">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_hlb_my">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_ideal_nl">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_indosat_id">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_itau_br">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_m1_sg">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_maybank2u_my">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_molpoints">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_neosurf">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_onecard">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
-        <method name="payssion_payment_bancontact_be">
+        <method name="payssion_payment_oxxo_mx">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_p24_pl">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_pagofacil_ar">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_paysafecard">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_paysbuy_th">
@@ -63,7 +123,19 @@
         <method name="payssion_payment_poli_nz">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_pse_co">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_qiwi">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_rapipago_ar">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_rhb_my">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_santander_br">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_sberbank_ru">
@@ -75,13 +147,31 @@
         <method name="payssion_payment_sofort">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_starhub_sg">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_telcovoucher_vn">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_tenpay_cn">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_truemoney_th">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_trustpay">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_unionpay_cn">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_vtcpay_vn">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_webmoney">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_xl_id">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_yamoney">

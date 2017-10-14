@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2016 Payssion All rights reserved.
+ */
+-->
+<include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+    <include path="Payssion_Payment::pm/paysafecard.xml" />
+    <include path="Payssion_Payment::pm/neosurf.xml" />
+    <include path="Payssion_Payment::pm/molpoints.xml" />
+    <include path="Payssion_Payment::pm/cherrycredits.xml" />
+    <include path="Payssion_Payment::pm/gash_tw.xml" />
+    <include path="Payssion_Payment::pm/truemoney_th.xml" />
+    <include path="Payssion_Payment::pm/indosat_id.xml" />
+    <include path="Payssion_Payment::pm/xl_id.xml" />
+    <include path="Payssion_Payment::pm/starhub_sg.xml" />
+    <include path="Payssion_Payment::pm/m1_sg.xml" />
+    <include path="Payssion_Payment::pm/telcovoucher_vn.xml" />
+</include>

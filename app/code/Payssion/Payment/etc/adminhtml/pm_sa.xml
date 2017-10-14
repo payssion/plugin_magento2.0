@@ -5,5 +5,14 @@
  */
 -->
 <include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
-    <include path="Payssion_Payment::pm/boleto.xml" />
+    <include path="Payssion_Payment::pm/boleto_br.xml" />
+    <include path="Payssion_Payment::pm/itau_br.xml" />
+    <include path="Payssion_Payment::pm/caixa_br.xml" />
+    <include path="Payssion_Payment::pm/santander_br.xml" />
+    <include path="Payssion_Payment::pm/banamex_mx.xml" />
+    <include path="Payssion_Payment::pm/bancomer_mx.xml" />
+    <include path="Payssion_Payment::pm/efecty_co.xml" />
+    <include path="Payssion_Payment::pm/pse_co.xml" />
+    <include path="Payssion_Payment::pm/pagofacil_ar.xml" />
+    <include path="Payssion_Payment::pm/rapipago_ar.xml" />
 </include>

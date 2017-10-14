@@ -8,6 +8,17 @@
         xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
     <default>
         <payment>
+            <payssion_payment_affinepg_my>
+                <active>0</active>
+                <title>Affin Bank</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Affinepgmy</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MY</specificcountry>
+            </payssion_payment_affinepg_my>
            <payssion_payment_alipay_cn>
                 <active>0</active>
                 <title>Alipay</title>
@@ -16,7 +27,20 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Alipaycn</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>CN</specificcountry>
             </payssion_payment_alipay_cn>
+            <payssion_payment_amb_my>
+                <active>0</active>
+                <title>AmOnline</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\AMBmy</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MY</specificcountry>
+            </payssion_payment_amb_my>
             <payssion_payment_atmva_id>
                 <active>0</active>
                 <title>ATMVA</title>
@@ -25,7 +49,42 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\ATMVAid</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
             </payssion_payment_atmva_id>
+            <payssion_payment_banamex_mx>
+                <active>0</active>
+                <title>Banamex</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Banamexmx</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MX</specificcountry>
+            </payssion_payment_banamex_mx>
+            <payssion_payment_bancomer_mx>
+                <active>0</active>
+                <title>Bancomer</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Bancomermx</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MX</specificcountry>
+            </payssion_payment_bancomer_mx>
+            <payssion_payment_bancontact_be>
+                <active>0</active>
+                <title>Bancontact</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Bancontactbe</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>BE</specificcountry>
+            </payssion_payment_bancontact_be>
             <payssion_payment_bitcoin>
                 <active>0</active>
                 <title>Bitcoin</title>
@@ -43,7 +102,20 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Boletobr</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>BR</specificcountry>
             </payssion_payment_boleto_br>
+            <payssion_payment_caixa_br>
+                <active>0</active>
+                <title>Caixa</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Caixabr</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>BR</specificcountry>
+            </payssion_payment_caixa_br>
             <payssion_payment_cashu>
                 <active>0</active>
                 <title>CashU</title>
@@ -53,6 +125,61 @@
                 <model>Payssion\Payment\Model\Paymentmethod\CashU</model>
                 <group>payssion_payment</group>
             </payssion_payment_cashu>
+            <payssion_payment_cherrycredits>
+                <active>0</active>
+                <title>Cherrycredits</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\CashU</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PH,SG,MY,ID</specificcountry>
+            </payssion_payment_cherrycredits>
+            <payssion_payment_cimb_my>
+                <active>0</active>
+                <title>CIMB Clicks</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\CIMBmy</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MY</specificcountry>
+            </payssion_payment_cimb_my>
+            <payssion_payment_doku_id>
+                <active>0</active>
+                <title>Doku</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Dokuid</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
+            </payssion_payment_doku_id>
+            <payssion_payment_dragonpay_ph>
+                <active>0</active>
+                <title>Dragonpay</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Dragonpayph</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PH</specificcountry>
+            </payssion_payment_dragonpay_ph>
+            <payssion_payment_effecty_co>
+                <active>0</active>
+                <title>Effecty</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Effectyco</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>CO</specificcountry>
+            </payssion_payment_effecty_co>
             <payssion_payment_enets_sg>
                 <active>0</active>
                 <title>eNets</title>
@@ -61,6 +188,8 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Enetssg</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>SG</specificcountry>
             </payssion_payment_enets_sg>
             <payssion_payment_eps_at>
                 <active>0</active>
@@ -70,6 +199,8 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\EPSat</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>AT</specificcountry>
             </payssion_payment_eps_at>
             <payssion_payment_fpx_my>
                 <active>0</active>
@@ -79,7 +210,20 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\FPXmy</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MY</specificcountry>
             </payssion_payment_fpx_my>
+            <payssion_payment_gash_tw>
+                <active>0</active>
+                <title>Gash</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Gashtw</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>TW</specificcountry>
+            </payssion_payment_gash_tw>
             <payssion_payment_giropay_de>
                 <active>0</active>
                 <title>Giropay</title>
@@ -88,34 +232,9 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Giropayde</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>DE</specificcountry>
             </payssion_payment_giropay_de>
-            <payssion_payment_ideal_nl>
-                <active>0</active>
-                <title>iDeal</title>
-                <order_status>pending_payment</order_status>
-                <instructions></instructions>
-                <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\IDealnl</model>
-                <group>payssion_payment</group>
-            </payssion_payment_ideal_nl>
-            <payssion_payment_maybank2u_my>
-                <active>0</active>
-                <title>Maybank2u</title>
-                <order_status>pending_payment</order_status>
-                <instructions></instructions>
-                <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\Maybank2umy</model>
-                <group>payssion_payment</group>
-            </payssion_payment_maybank2u_my>
-            <payssion_payment_cimb_my>
-                <active>0</active>
-                <title>CIMB Clicks</title>
-                <order_status>pending_payment</order_status>
-                <instructions></instructions>
-                <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\CIMBmy</model>
-                <group>payssion_payment</group>
-            </payssion_payment_cimb_my>
             <payssion_payment_hlb_my>
                 <active>0</active>
                 <title>Hong Leong Online</title>
@@ -124,34 +243,86 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\HLBmy</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MY</specificcountry>
             </payssion_payment_hlb_my>
-            <payssion_payment_rhb_my>
+            <payssion_payment_ideal_nl>
                 <active>0</active>
-                <title>RHB Now</title>
+                <title>iDeal</title>
                 <order_status>pending_payment</order_status>
                 <instructions></instructions>
                 <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\RHBmy</model>
+                <model>Payssion\Payment\Model\Paymentmethod\IDealnl</model>
                 <group>payssion_payment</group>
-            </payssion_payment_rhb_my>
-            <payssion_payment_amb_my>
+                <allowspecific>1</allowspecific>
+                <specificcountry>NL</specificcountry>
+            </payssion_payment_ideal_nl>
+            <payssion_payment_indosat_id>
                 <active>0</active>
-                <title>AmOnline</title>
+                <title>Indosat</title>
                 <order_status>pending_payment</order_status>
                 <instructions></instructions>
                 <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\AMBmy</model>
+                <model>Payssion\Payment\Model\Paymentmethod\Indosatid</model>
                 <group>payssion_payment</group>
-            </payssion_payment_amb_my>
-            <payssion_payment_affinepg_my>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
+            </payssion_payment_indosat_id>
+            <payssion_payment_itau_br>
                 <active>0</active>
-                <title>Affin Bank</title>
+                <title>Itau</title>
                 <order_status>pending_payment</order_status>
                 <instructions></instructions>
                 <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\Affinepgmy</model>
+                <model>Payssion\Payment\Model\Paymentmethod\Itaubr</model>
                 <group>payssion_payment</group>
-            </payssion_payment_affinepg_my>
+                <allowspecific>1</allowspecific>
+                <specificcountry>BR</specificcountry>
+            </payssion_payment_itau_br>
+            <payssion_payment_m1_sg>
+                <active>0</active>
+                <title>M1</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\M1sg</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>SG</specificcountry>
+            </payssion_payment_m1_sg>
+            <payssion_payment_maybank2u_my>
+                <active>0</active>
+                <title>Maybank2u</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Maybank2umy</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MY</specificcountry>
+            </payssion_payment_maybank2u_my>
+            <payssion_payment_molpoints>
+                <active>0</active>
+                <title>Molpoints</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Molpoints</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MY,TH,SG,PH</specificcountry>
+            </payssion_payment_molpoints>
+            <payssion_payment_neosurf>
+                <active>0</active>
+                <title>Neosurf</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Neosurf</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>FR,GB,OR</specificcountry>
+            </payssion_payment_neosurf>
             <payssion_payment_onecard>
                 <active>0</active>
                 <title>Onecard</title>
@@ -161,15 +332,17 @@
                 <model>Payssion\Payment\Model\Paymentmethod\Onecard</model>
                 <group>payssion_payment</group>
             </payssion_payment_onecard>
-            <payssion_payment_bancontact_be>
+            <payssion_payment_oxxo_mx>
                 <active>0</active>
-                <title>Bancontact</title>
+                <title>OXXO</title>
                 <order_status>pending_payment</order_status>
                 <instructions></instructions>
                 <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\Bancontactbe</model>
+                <model>Payssion\Payment\Model\Paymentmethod\OXXOmx</model>
                 <group>payssion_payment</group>
-            </payssion_payment_bancontact_be>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MX</specificcountry>
+            </payssion_payment_oxxo_mx>
             <payssion_payment_p24_pl>
                 <active>0</active>
                 <title>P24</title>
@@ -178,7 +351,30 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\P24pl</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PL</specificcountry>
             </payssion_payment_p24_pl>
+            <payssion_payment_pagofacil_ar>
+                <active>0</active>
+                <title>Pagofacil</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Pagofacilar</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>AR</specificcountry>
+            </payssion_payment_pagofacil_ar>
+            <payssion_payment_paysafecard>
+                <active>0</active>
+                <title>Paysafecard</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Paysafecard</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+            </payssion_payment_paysafecard>
             <payssion_payment_paysbuy_th>
                 <active>0</active>
                 <title>Paysbuy</title>
@@ -187,6 +383,8 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Paysbuyth</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>TH</specificcountry>
             </payssion_payment_paysbuy_th>
             <payssion_payment_poli_au>
                 <active>0</active>
@@ -196,6 +394,8 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Poliau</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>AU</specificcountry>
             </payssion_payment_poli_au>
             <payssion_payment_poli_nz>
                 <active>0</active>
@@ -205,7 +405,20 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Polinz</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>NZ</specificcountry>
             </payssion_payment_poli_nz>
+            <payssion_payment_pse_co>
+                <active>0</active>
+                <title>PSE</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\PSEco</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>CO</specificcountry>
+            </payssion_payment_pse_co>
             <payssion_payment_qiwi>
                 <active>0</active>
                 <title>QIWI</title>
@@ -214,7 +427,42 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\QIWI</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>AM,AZ,BY,KZ,KG,MD,RU,TJ,TM,UA,UZ</specificcountry>
             </payssion_payment_qiwi>
+            <payssion_payment_rapipago_ar>
+                <active>0</active>
+                <title>Rapipago</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Rapipagoar</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>AR</specificcountry>
+            </payssion_payment_rapipago_ar>
+            <payssion_payment_rhb_my>
+                <active>0</active>
+                <title>RHB Now</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\RHBmy</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>MY</specificcountry>
+            </payssion_payment_rhb_my>
+            <payssion_payment_santander_br>
+                <active>0</active>
+                <title>Santander</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Santanderbr</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>BR</specificcountry>
+            </payssion_payment_santander_br>
             <payssion_payment_sberbank_ru>
                 <active>0</active>
                 <title>Sberbank</title>
@@ -223,6 +471,8 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Sberbankru</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>RU</specificcountry>
             </payssion_payment_sberbank_ru>
             <payssion_payment_singpost_sg>
                 <active>0</active>
@@ -232,6 +482,8 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Singpostsg</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>SG</specificcountry>
             </payssion_payment_singpost_sg>
             <payssion_payment_sofort>
                 <active>0</active>
@@ -241,7 +493,31 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Sofort</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>AT,BE,DE,IT,NL,SK,ES,CH</specificcountry>
             </payssion_payment_sofort>
+            <payssion_payment_starhub_sg>
+                <active>0</active>
+                <title>Starhub</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Starhubsg</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>SG</specificcountry>
+            </payssion_payment_starhub_sg>
+            <payssion_payment_telcovoucher_vn>
+                <active>0</active>
+                <title>Telco Voucher</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Telcovouchervn</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>VN</specificcountry>
+            </payssion_payment_telcovoucher_vn>
             <payssion_payment_tenpay_cn>
                 <active>0</active>
                 <title>Tenpay</title>
@@ -250,7 +526,31 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Tenpaycn</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>CN</specificcountry>
             </payssion_payment_tenpay_cn>
+            <payssion_payment_truemoney_th>
+                <active>0</active>
+                <title>Truemoney</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Truemoneyth</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>TH</specificcountry>
+            </payssion_payment_truemoney_th>
+            <payssion_payment_trustpay>
+                <active>0</active>
+                <title>Tenpay</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Trustpay</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>SK,CZ,BE,BG,DK,DE,EE,IE,EL,ES,FR,HR,IT,CY,LV,LT,LU,HU,MT,NL,AT,PT,RO,SI,FI,SE</specificcountry>
+            </payssion_payment_trustpay>
             <payssion_payment_unionpay_cn>
                 <active>0</active>
                 <title>Unionpay</title>
@@ -259,7 +559,20 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Unionpaycn</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>CN</specificcountry>
             </payssion_payment_unionpay_cn>
+            <payssion_payment_vtcpay_vn>
+                <active>0</active>
+                <title>VTCPay</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\VTCPayvn</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>VN</specificcountry>
+            </payssion_payment_vtcpay_vn>
             <payssion_payment_webmoney>
                 <active>0</active>
                 <title>Webmoney</title>
@@ -269,6 +582,15 @@
                 <model>Payssion\Payment\Model\Paymentmethod\Webmoney</model>
                 <group>payssion_payment</group>
             </payssion_payment_webmoney>
+            <payssion_payment_xl_id>
+                <active>0</active>
+                <title>XL</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\XLid</model>
+                <group>payssion_payment</group>
+            </payssion_payment_xl_id>
             <payssion_payment_yamoney>
                 <active>0</active>
                 <title>Yandex.Money</title>
@@ -277,6 +599,8 @@
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Yamoney</model>
                 <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>AM,AZ,BY,KZ,KG,MD,RU,TJ,TM,UA,UZ</specificcountry>
             </payssion_payment_yamoney>
         </payment>
     </default>

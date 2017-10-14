@@ -44,6 +44,11 @@
                     <label>MENA</label>
                     <include path="Payssion_Payment::pm_af.xml"/>
                 </group>
+                <group id="payssion_pm_digitalproduct" translate="label"  sortOrder="8" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Payssion\Payment\Block\Adminhtml\System\Config\Fieldset\Expanded</frontend_model>
+                    <label>Payment Methods for digital products (High fees)</label>
+                    <include path="Payssion_Payment::pm_digitalproduct.xml"/>
+                </group>
             </group>
         </section>
     </system>

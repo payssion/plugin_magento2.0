@@ -27,11 +27,8 @@
                         type="submit"
                         data-bind="
                         click: placeOrder,
-                        attr: {title: $t('Place Order')},
-                        css: {disabled: !isPlaceOrderActionAllowed()},
-                        enable: (getCode() == isChecked())
-                        "
-                        disabled>
+                        attr: {title: $t('Place Order')}
+                        ">
                     <span data-bind="text: $t('Place Order')"></span>
                 </button>
             </div>
