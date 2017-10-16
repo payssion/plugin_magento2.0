@@ -36,7 +36,7 @@
                 <order_status>pending_payment</order_status>
                 <instructions></instructions>
                 <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\Alfamarktid</model>
+                <model>Payssion\Payment\Model\Paymentmethod\Alfamartid</model>
                 <group>payssion_payment</group>
                 <allowspecific>1</allowspecific>
                 <specificcountry>ID</specificcountry>
@@ -299,17 +299,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>PH</specificcountry>
             </payssion_payment_dragonpay_ph>
-            <payssion_payment_effecty_co>
+            <payssion_payment_efecty_co>
                 <active>0</active>
                 <title>Effecty</title>
                 <order_status>pending_payment</order_status>
                 <instructions></instructions>
                 <payment_action>order</payment_action>
-                <model>Payssion\Payment\Model\Paymentmethod\Effectyco</model>
+                <model>Payssion\Payment\Model\Paymentmethod\Efectyco</model>
                 <group>payssion_payment</group>
                 <allowspecific>1</allowspecific>
                 <specificcountry>CO</specificcountry>
-            </payssion_payment_effecty_co>
+            </payssion_payment_efecty_co>
             <payssion_payment_enets_sg>
                 <active>0</active>
                 <title>eNets</title>

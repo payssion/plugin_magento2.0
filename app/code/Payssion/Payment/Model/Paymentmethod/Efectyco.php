@@ -7,5 +7,5 @@ namespace Payssion\Payment\Model\Paymentmethod;
 
 class Efectyco extends PaymentMethod
 {
-	protected $_code = 'payssion_payment_effecty_co';
+	protected $_code = 'payssion_payment_efecty_co';
 }
