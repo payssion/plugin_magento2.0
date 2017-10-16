@@ -9,11 +9,25 @@
     <include path="Payssion_Payment::pm/neosurf.xml" />
     <include path="Payssion_Payment::pm/molpoints.xml" />
     <include path="Payssion_Payment::pm/cherrycredits.xml" />
+    <include path="Payssion_Payment::pm/boacompra.xml" />
+    <include path="Payssion_Payment::pm/creditcard_jp.xml" />
+    <include path="Payssion_Payment::pm/bitcash_jp.xml" />
+    <include path="Payssion_Payment::pm/netcash_jp.xml" />
+    <include path="Payssion_Payment::pm/docomo_jp.xml" />
     <include path="Payssion_Payment::pm/gash_tw.xml" />
+    <include path="Payssion_Payment::pm/tm_tw.xml" />
+    <include path="Payssion_Payment::pm/aptg_tw.xml" />
+    <include path="Payssion_Payment::pm/cht839_tw.xml" />
+    <include path="Payssion_Payment::pm/fetnet_tw.xml" />
     <include path="Payssion_Payment::pm/truemoney_th.xml" />
+    <include path="Payssion_Payment::pm/otc_th.xml" />
     <include path="Payssion_Payment::pm/indosat_id.xml" />
     <include path="Payssion_Payment::pm/xl_id.xml" />
+    <include path="Payssion_Payment::pm/alfamart_id.xml" />
     <include path="Payssion_Payment::pm/starhub_sg.xml" />
+    <include path="Payssion_Payment::pm/singtel_sg.xml" />
     <include path="Payssion_Payment::pm/m1_sg.xml" />
+    <include path="Payssion_Payment::pm/gcash_ph.xml" />
+    <include path="Payssion_Payment::pm/smartsun_ph.xml" />
     <include path="Payssion_Payment::pm/telcovoucher_vn.xml" />
 </include>

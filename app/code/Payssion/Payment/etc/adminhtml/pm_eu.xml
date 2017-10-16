@@ -9,10 +9,15 @@
     <include path="Payssion_Payment::pm/giropay_de.xml" />
     <include path="Payssion_Payment::pm/ideal_nl.xml" />
     <include path="Payssion_Payment::pm/bancontact_be.xml" />
+    <include path="Payssion_Payment::pm/dotpay_pl.xml" />
     <include path="Payssion_Payment::pm/p24_pl.xml" />
+    <include path="Payssion_Payment::pm/verkkopankki_fi.xml" />
+    <include path="Payssion_Payment::pm/multibanco_pt.xml" />
     <include path="Payssion_Payment::pm/trustpay.xml" />
-    <include path="Payssion_Payment::pm/webmoney.xml" />
     <include path="Payssion_Payment::pm/qiwi.xml" />
+    <include path="Payssion_Payment::pm/bankcard_ru.xml" />
+    <include path="Payssion_Payment::pm/webmoney.xml" />
     <include path="Payssion_Payment::pm/yamoney.xml" />
     <include path="Payssion_Payment::pm/sberbank_ru.xml" />
+    <include path="Payssion_Payment::pm/alfaclick_ru.xml" />
 </include>

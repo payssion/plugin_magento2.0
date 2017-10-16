@@ -13,6 +13,11 @@
     <include path="Payssion_Payment::pm/bancomer_mx.xml" />
     <include path="Payssion_Payment::pm/efecty_co.xml" />
     <include path="Payssion_Payment::pm/pse_co.xml" />
+    <include path="Payssion_Payment::pm/davivienda_co.xml" />
+    <include path="Payssion_Payment::pm/redcompra_cl.xml" />
+    <include path="Payssion_Payment::pm/bancochile_cl.xml" />
+    <include path="Payssion_Payment::pm/webpay_cl.xml" />
     <include path="Payssion_Payment::pm/pagofacil_ar.xml" />
     <include path="Payssion_Payment::pm/rapipago_ar.xml" />
+    <include path="Payssion_Payment::pm/redpagos_uy.xml" />
 </include>
