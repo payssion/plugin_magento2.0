@@ -19,8 +19,8 @@ define(
             {type: 'payssion_payment_amb_my', component: defaultComponent},
             {type: 'payssion_payment_aptg_tw', component: defaultComponent},
             {type: 'payssion_payment_atmva_id', component: defaultComponent},
-            {type: 'payssion_payment_banamex_mx', component: defaultComponent}
-            {type: 'payssion_payment_bankcard_ru', component: defaultComponent},,
+            {type: 'payssion_payment_banamex_mx', component: defaultComponent},
+            {type: 'payssion_payment_bankcard_ru', component: defaultComponent},
             {type: 'payssion_payment_bancochile_cl', component: defaultComponent},
             {type: 'payssion_payment_bancomer_mx', component: defaultComponent},
             {type: 'payssion_payment_bancontact_be', component: defaultComponent},
