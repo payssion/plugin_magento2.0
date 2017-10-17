@@ -24,11 +24,6 @@
                     <label>Global</label>
                     <include path="Payssion_Payment::pm_global.xml"/>
                 </group>
-                <group id="payssion_pm_am" translate="label"  sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <frontend_model>Payssion\Payment\Block\Adminhtml\System\Config\Fieldset\Expanded</frontend_model>
-                    <label>Americas</label>
-                    <include path="Payssion_Payment::pm_am.xml"/>
-                </group>
                 <group id="payssion_pm_ap" translate="label"  sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
                     <frontend_model>Payssion\Payment\Block\Adminhtml\System\Config\Fieldset\Expanded</frontend_model>
                     <label>Asia Pacific</label>
