@@ -77,7 +77,7 @@ class Redirect extends \Magento\Framework\App\Action\Action
             }
 
         } catch (\Exception $e) {
-            $this->messageManager->addException($e, __('Something went wrong, please try again later'));
+            //$this->messageManager->addException($e, __('Something went wrong, please try again later'));
             $this->_logger->critical($e);
             $this->_getCheckoutSession()->restoreQuote();
             $this->_redirect('checkout/cart');
