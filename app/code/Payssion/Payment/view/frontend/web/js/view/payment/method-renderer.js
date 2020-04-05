@@ -64,7 +64,7 @@ define(
             {type: 'payssion_payment_oxxo_mx', component: defaultComponent},
             {type: 'payssion_payment_p24_pl', component: defaultComponent},
             {type: 'payssion_payment_pagofacil_ar', component: defaultComponent},
-            {type: 'payssion_payment_paybybank_gb', component: defaultComponent},
+            {type: 'payssion_payment_paybybankapp_gb', component: defaultComponent},
             {type: 'payssion_payment_paysafecard', component: defaultComponent},
             {type: 'payssion_payment_paysbuy_th', component: defaultComponent},
             {type: 'payssion_payment_poli_au', component: defaultComponent},
