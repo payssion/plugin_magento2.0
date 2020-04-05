@@ -144,6 +144,9 @@
         <method name="payssion_payment_multibanco_pt">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_mybank">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_neosurf">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
@@ -163,6 +166,9 @@
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_pagofacil_ar">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_paybybankapp_gb">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_paysafecard">

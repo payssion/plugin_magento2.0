@@ -13,6 +13,8 @@
     <include path="Payssion_Payment::pm/p24_pl.xml" />
     <include path="Payssion_Payment::pm/verkkopankki_fi.xml" />
     <include path="Payssion_Payment::pm/multibanco_pt.xml" />
+    <include path="Payssion_Payment::pm/mybank.xml" />
+    <include path="Payssion_Payment::pm/paybybankapp_gb.xml" />
     <include path="Payssion_Payment::pm/trustpay.xml" />
     <include path="Payssion_Payment::pm/qiwi.xml" />
     <include path="Payssion_Payment::pm/bankcard_ru.xml" />
