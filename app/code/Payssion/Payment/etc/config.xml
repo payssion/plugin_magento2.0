@@ -574,9 +574,9 @@
             </payssion_payment_pagofacil_ar>
             <payssion_payment_paybybankapp_gb>
                 <active>0</active>
-                <title>Mybank</title>
+                <title>Pay by Bank app</title>
                 <order_status>pending_payment</order_status>
-                <instructions></instructions>
+                <instructions>pay using your UK bank app on your phone</instructions>
                 <payment_action>order</payment_action>
                 <model>Payssion\Payment\Model\Paymentmethod\Paybybankappgb</model>
                 <group>payssion_payment</group>
