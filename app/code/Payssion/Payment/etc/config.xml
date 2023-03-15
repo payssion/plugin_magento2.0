@@ -19,6 +19,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>MY</specificcountry>
             </payssion_payment_affinepg_my>
+            <payssion_payment_alfa_pk>
+                <active>0</active>
+                <title>Alfa</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Alfapk</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PK</specificcountry>
+            </payssion_payment_alfa_pk>
             <payssion_payment_alfaclick_ru>
                 <active>0</active>
                 <title>Alfaclick</title>
@@ -140,6 +151,28 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>AM,AZ,BY,KZ,KG,MD,RU,TJ,TM,UA,UZ</specificcountry>
             </payssion_payment_bankcard_ru>
+            <payssion_payment_bankcard_tr>
+                <active>0</active>
+                <title>Bank Card</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Bankcardtr</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>TR</specificcountry>
+            </payssion_payment_bankcard_tr>
+            <payssion_payment_banktransfer_tr>
+                <active>0</active>
+                <title>Bank Transfer</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Banktransfertr</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>TR</specificcountry>
+            </payssion_payment_banktransfer_tr>
             <payssion_payment_bitcash_jp>
                 <active>0</active>
                 <title>Bitcash</title>
@@ -299,6 +332,28 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>PH</specificcountry>
             </payssion_payment_dragonpay_ph>
+            <payssion_payment_easypaisa_pk>
+                <active>0</active>
+                <title>Easypaisa</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Easypaisapk</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PK</specificcountry>
+            </payssion_payment_easypaisa_pk>
+            <payssion_payment_ebanking_za>
+                <active>0</active>
+                <title>Internet Banking</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Ebankingza</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ZA</specificcountry>
+            </payssion_payment_ebanking_za>
             <payssion_payment_efecty_co>
                 <active>0</active>
                 <title>Effecty</title>
@@ -442,6 +497,28 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>BR</specificcountry>
             </payssion_payment_itau_br>
+            <payssion_payment_jazzcash_pk>
+                <active>0</active>
+                <title>JazzCash</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Jazzcashpk</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PK</specificcountry>
+            </payssion_payment_jazzcash_pk>
+            <payssion_payment_konnect_pk>
+                <active>0</active>
+                <title>Konnect</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Konnectpk</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PK</specificcountry>
+            </payssion_payment_konnect_pk>
             <payssion_payment_m1_sg>
                 <active>0</active>
                 <title>M1</title>

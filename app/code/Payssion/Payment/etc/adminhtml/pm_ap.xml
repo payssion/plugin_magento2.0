@@ -21,6 +21,12 @@
     <include path="Payssion_Payment::pm/doku_id.xml" />
     <include path="Payssion_Payment::pm/atmva_id.xml" />
     <include path="Payssion_Payment::pm/dragonpay_ph.xml" />
+    <include path="Payssion_Payment::pm/easypaisa_pk.xml" />
+    <include path="Payssion_Payment::pm/alfa_pk.xml" />
+    <include path="Payssion_Payment::pm/jazzcash_pk.xml" />
+    <include path="Payssion_Payment::pm/konnect_pk.xml" />
+    <include path="Payssion_Payment::pm/bankcard_tr.xml" />
+    <include path="Payssion_Payment::pm/banktransfer_tr.xml" />
     <include path="Payssion_Payment::pm/poli_au.xml" />
     <include path="Payssion_Payment::pm/poli_nz.xml" />
 </include>

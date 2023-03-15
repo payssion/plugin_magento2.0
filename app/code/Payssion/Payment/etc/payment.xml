@@ -15,6 +15,9 @@
         <method name="payssion_payment_affinepg_my">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_alfa_pk">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_alfaclick_ru">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
@@ -45,7 +48,13 @@
         <method name="payssion_payment_bancontact_be">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
-        <method name="payssion_payment_bancard_ru">
+        <method name="payssion_payment_bankcard_ru">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_bankcard_tr">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_banktransfer_tr">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_bitcash_jp">
@@ -93,6 +102,12 @@
         <method name="payssion_payment_dragonpay_ph">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_ebanking_za">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_easypaisa_pk">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_efecty_co">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
@@ -130,6 +145,12 @@
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_itau_br">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_jazzcash_pk">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_konnect_pk">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_m1_sg">
