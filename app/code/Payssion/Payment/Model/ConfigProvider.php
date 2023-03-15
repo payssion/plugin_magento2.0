@@ -46,6 +46,7 @@ class ConfigProvider implements ConfigProviderInterface
     	'payssion_payment_efecty_co',
     	'payssion_payment_enets_sg',
     	'payssion_payment_eps_at',
+        'payssion_payment_fawry_eg',
     	'payssion_payment_fetnet_tw',
     	'payssion_payment_fpx_my',
     	'payssion_payment_gash_tw',

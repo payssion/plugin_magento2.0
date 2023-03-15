@@ -102,6 +102,9 @@
         <method name="payssion_payment_eps_at">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_farwy_eg">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_fetnet_tw">
             <allow_multiple_address>0</allow_multiple_address>
         </method>

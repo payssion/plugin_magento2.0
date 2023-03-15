@@ -42,6 +42,7 @@ define(
             {type: 'payssion_payment_efecty_co', component: defaultComponent},
             {type: 'payssion_payment_enets_sg', component: defaultComponent},
             {type: 'payssion_payment_eps_at', component: defaultComponent},
+            {type: 'payssion_payment_fawry_eg', component: defaultComponent},
             {type: 'payssion_payment_fetnet_tw', component: defaultComponent},
             {type: 'payssion_payment_fpx_my', component: defaultComponent},
             {type: 'payssion_payment_gash_tw', component: defaultComponent},
