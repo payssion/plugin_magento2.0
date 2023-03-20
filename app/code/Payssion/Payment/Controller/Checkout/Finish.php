@@ -68,7 +68,7 @@ class Finish extends \Magento\Framework\App\Action\Action
         	$this->_logger->critical('Invalid return, no transactionId specified', $params);
         	$resultRedirect->setPath('checkout/cart');
         } else {
-        	if ('completed' == $params['state']) {
+            if (isset($params['state']) && 'completed' == $params['state']) {
         		$this->_getCheckoutSession()->start();
         		$resultRedirect->setPath('checkout/onepage/success');
         	} else {
