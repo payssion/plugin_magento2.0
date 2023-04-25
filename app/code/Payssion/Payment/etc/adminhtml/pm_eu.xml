@@ -10,6 +10,8 @@
     <include path="Payssion_Payment::pm/ideal_nl.xml" />
     <include path="Payssion_Payment::pm/bancontact_be.xml" />
     <include path="Payssion_Payment::pm/dotpay_pl.xml" />
+    <include path="Payssion_Payment::pm/blik_pl.xml" />
+    <include path="Payssion_Payment::pm/payu_pl.xml" />
     <include path="Payssion_Payment::pm/p24_pl.xml" />
     <include path="Payssion_Payment::pm/verkkopankki_fi.xml" />
     <include path="Payssion_Payment::pm/multibanco_pt.xml" />

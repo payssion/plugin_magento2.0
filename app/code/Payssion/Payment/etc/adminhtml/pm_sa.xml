@@ -5,6 +5,7 @@
  */
 -->
 <include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+    <include path="Payssion_Payment::pm/pix_br.xml" />
     <include path="Payssion_Payment::pm/boleto_br.xml" />
     <include path="Payssion_Payment::pm/itau_br.xml" />
     <include path="Payssion_Payment::pm/caixa_br.xml" />

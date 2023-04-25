@@ -63,6 +63,9 @@
         <method name="payssion_payment_bitcoin">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_blik_pl">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_boacompra">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
@@ -195,10 +198,19 @@
         <method name="payssion_payment_paybybankapp_gb">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_paynow_sg">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
         <method name="payssion_payment_paysafecard">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_paysbuy_th">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_payu_pl">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_pix_br">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
         <method name="payssion_payment_poli_au">

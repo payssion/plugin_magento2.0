@@ -193,6 +193,17 @@
                 <model>Payssion\Payment\Model\Paymentmethod\Bitcoin</model>
                 <group>payssion_payment</group>
             </payssion_payment_bitcoin>
+            <payssion_payment_blik_pl>
+                <active>0</active>
+                <title>BLIK</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Blikpl</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PL</specificcountry>
+            </payssion_payment_blik_pl>
             <payssion_payment_boacompra>
                 <active>0</active>
                 <title>Boacompra</title>
@@ -671,6 +682,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>GB</specificcountry>
             </payssion_payment_paybybankapp_gb>
+            <payssion_payment_paynow_sg>
+                <active>0</active>
+                <title>PayNow</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Paynowsg</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>SG</specificcountry>
+            </payssion_payment_paynow_sg>
             <payssion_payment_paysafecard>
                 <active>0</active>
                 <title>Paysafecard</title>
@@ -692,6 +714,28 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>TH</specificcountry>
             </payssion_payment_paysbuy_th>
+             <payssion_payment_payu_pl>
+                <active>0</active>
+                <title>PayU</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Payupl</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>PL</specificcountry>
+            </payssion_payment_payu_pl>
+            <payssion_payment_pix_br>
+                <active>0</active>
+                <title>PIX</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Pixbr</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>BR</specificcountry>
+            </payssion_payment_pix_br>
             <payssion_payment_poli_au>
                 <active>0</active>
                 <title>Australia Bank Transfer</title>
