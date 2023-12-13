@@ -277,9 +277,20 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>MY</specificcountry>
             </payssion_payment_cimb_my>
+            <payssion_payment_creditcard_id>
+                <active>0</active>
+                <title>Credit Card</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Creditcardid</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
+            </payssion_payment_creditcard_id>
             <payssion_payment_creditcard_jp>
                 <active>0</active>
-                <title>Credit card</title>
+                <title>Credit Card</title>
                 <order_status>pending_payment</order_status>
                 <instructions></instructions>
                 <payment_action>order</payment_action>
@@ -288,6 +299,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>JP</specificcountry>
             </payssion_payment_creditcard_jp>
+            <payssion_payment_dana_id>
+                <active>0</active>
+                <title>DANA</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Danaid</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
+            </payssion_payment_dana_id>
             <payssion_payment_davivienda_co>
                 <active>0</active>
                 <title>Davivienda</title>
@@ -530,6 +552,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>PK</specificcountry>
             </payssion_payment_konnect_pk>
+            <payssion_payment_linkaja_id>
+                <active>0</active>
+                <title>LinkAja</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Linkajaid</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
+            </payssion_payment_linkaja_id>
             <payssion_payment_m1_sg>
                 <active>0</active>
                 <title>M1</title>
@@ -638,6 +671,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>TH</specificcountry>
             </payssion_payment_otc_th>
+            <payssion_payment_ovo_id>
+                <active>0</active>
+                <title>OVO</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Ovoid</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
+            </payssion_payment_ovo_id>
             <payssion_payment_oxxo_mx>
                 <active>0</active>
                 <title>OXXO</title>
@@ -780,6 +824,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>AM,AZ,BY,KZ,KG,MD,RU,TJ,TM,UA,UZ</specificcountry>
             </payssion_payment_qiwi>
+            <payssion_payment_qris_id>
+                <active>0</active>
+                <title>QRIS</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Qrisid</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
+            </payssion_payment_qris_id>
             <payssion_payment_rapipago_ar>
                 <active>0</active>
                 <title>Rapipago</title>
@@ -846,6 +901,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>RU</specificcountry>
             </payssion_payment_sberbank_ru>
+            <payssion_payment_shopeepay_id>
+                <active>0</active>
+                <title>ShopeePay</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Shopeepayid</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>ID</specificcountry>
+            </payssion_payment_shopeepay_id>
             <payssion_payment_singpost_sg>
                 <active>0</active>
                 <title>Singpost</title>
